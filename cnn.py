@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 train_images, test_images = train_images / 255.0, test_images / 255.0
 
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
-               'dog', 'frog', 'horse', 'ship', 'truck']
+               'dog', 'frog', 'horse', 'truck']
 
 plt.figure(figsize=(10,10))
 for i in range(25):
