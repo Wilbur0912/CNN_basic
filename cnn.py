@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Normalize pixel values to be between 0 and 1
 train_images, test_images = train_images / 255.0, test_images / 255.0
 
-class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
+class_names = ['airplane', 'automobile', 'Bird', 'cat', 'deer',
                'dog', 'frog', 'horse', 'ship', 'truck']
 
 plt.figure(figsize=(10,10))
